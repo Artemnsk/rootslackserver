@@ -1,0 +1,3 @@
+# Common self-explanatory stuff to ignore.
+.idea
+node_modules

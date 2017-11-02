@@ -10,6 +10,7 @@ const app = express();
 // Set view engine for app.
 app.set('view engine', 'pug');
 app.use('/gospel', require('../gospel'));
+app.use('/lottery', require('../lottery'));
 
 if (false) {
     const letsEncryptGateway = 'https://acme-v01.api.letsencrypt.org/directory';
